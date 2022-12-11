@@ -94,7 +94,7 @@ public class SimulationBestCombinationFinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter input file name, dispatch Ratio, Demotion Criteria");
+        System.out.println("Enter input file name");
         String input = sc.nextLine();
         String[] elements = input.split(" ");
         String fileName = elements[0];
