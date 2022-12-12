@@ -118,8 +118,9 @@ public class Simulation {
                 0);
 
         //Printing the values
+        System.out.printf("End Time : %s%n", result.getTotalTime());
         System.out.printf("Process Completed : %s%n", result.getCompletedProcess());
-        System.out.printf("Total Execution Time : %s%n", result.getTotalTime());
+        System.out.printf("Total Execution Time : %s%n", result.getTotalTime() - result.getIdleTime());
         System.out.printf("Idle Time : %s%n", result.getIdleTime());
         System.out.printf("Wait Time Average : %s%n", result.getAverageWaitTime());
 
